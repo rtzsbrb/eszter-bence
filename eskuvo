@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eszter és Bence Esküvő</title>
+    <title>Eszter és Bence Esküvője</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,7 +45,7 @@
         <div class="container">
             <h2>Galéria</h2>
             <p>Itt találhatók a legszebb pillanatok fotói.</p>
-            <!-- Itt később képeket illeszthetünk be -->
+            <!-- Képek ide kerülnek -->
         </div>
     </section>
 
@@ -85,65 +85,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-/* style.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-}
-
-header {
-    background-color: #3e3e3e;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-section {
-    padding: 40px 0;
-    text-align: center;
-}
-
-h2 {
-    color: #3e3e3e;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-footer {
-    background-color: #3e3e3e;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-// script.js
-document.querySelector("form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const name = document.getElementById("name").value;
-    const attendance = document.getElementById("attendance").value;
-    alert(`Köszönjük, ${name}! A visszajelzésed: ${attendance}.`);
-});
